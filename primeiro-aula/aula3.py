@@ -42,17 +42,17 @@ while n1 > 10 or n1 < 0:
     
 
 n2 = float(input('Informe nota 2: '))
-while n2 > 10:
+while n2 > 10 or n2 < 0:
     n2 = float(input('Você digitou a nota erra: Informe N2: '))
    
 
 n3 = float(input('Informe nota 3: '))
-while n3 > 10:
+while n3 > 10 or n3 < 0:
     n3 = float(input('Você digitou a nota erra: Informe N3: '))
     
 
 n4 = float(input('Informe nota 4: '))
-while n4 > 10:
+while n4 > 10 or n4 < 0:
     n4 = float(input('Você digitou a nota erra: Informe N4: '))
     
 
