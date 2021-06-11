@@ -35,13 +35,13 @@
 #     print('Não tem número par apenas impar')
 
 
-n1 = float(input('Informe o nota 1: '))
+n1 = float(input('Informe nota 1: '))
 
 while n1 > 10 or n1 < 0:
     n1 = float(input('Você digitou a nota erra: Informe N1: '))
     
 
-n2 = float(input('Informe o nota 2: '))
+n2 = float(input('Informe nota 2: '))
 while n2 > 10:
     n2 = float(input('Você digitou a nota erra: Informe N2: '))
    
