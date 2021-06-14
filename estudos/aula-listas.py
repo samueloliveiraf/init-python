@@ -55,10 +55,10 @@
 # conjunto_animais = set(lista)
 # print(conjunto_animais)
 
-conjunto_a = {1, 1, 3, 4, 5}
-conjunto_b = {1, 3, 6}
-conjunto_a.add(6)
-conjunto_a.remove(1)
+valida_numero = {
+    'par': lambda a: True if a % 2 == 0 else False,
+    'impar': lambda b: True if b % 2 == 0 else False
+}
+resultado = valida_numero['par'](10)
 
-resultado = list(conjunto_a.intersection(conjunto_b))
 print(resultado)
