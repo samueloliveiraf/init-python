@@ -49,6 +49,3 @@ if __name__ == '__main__':
     # print(lista_media)
     # copia_arq('notas.txt')
     move_arq('notas.txt')
-    # aluno = 'Ana, 10, 5, 5, 0\n'
-    # atualizar_arq('notas.txt', aluno)
-    # escrever_arq('samuel.')
